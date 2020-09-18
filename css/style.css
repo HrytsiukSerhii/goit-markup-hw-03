@@ -84,10 +84,19 @@ body {
 
 /*ЗАГОЛОВОК   h1  */
 .hero {
+  background-color: #2f303a;
+
+  width: 1600px;
+
+  padding-top: 200px;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   text-align: center;
 }
+
 .hero-title {
-  color: var(--text-color-black);
+  color: #ffffff;
 
   font-style: normal;
   font-weight: 900;
@@ -122,8 +131,9 @@ body {
   padding-bottom: 10px;
   width: 200px;
   height: 50px;
-}
 
+  margin-bottom: 200px; /*кнопка отступила по секции 200пх -  */
+}
 /*  Кнопки ФИЛЬТРЫ --- страница портфолио */
 .btn-list {
   display: flex;
@@ -195,6 +205,9 @@ body {
 
   padding: 0;
   margin: 0;
+
+  width: 270px;
+  height: 75px;
 }
 .foto-list {
   display: flex;
@@ -348,6 +361,10 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.section.features {
+  padding-top: 94px;
+  padding-bottom: 0;
+}
 .section.no-padding {
   padding-top: 0;
   padding-bottom: 0;
@@ -364,9 +381,7 @@ body {
   padding-top: 50px;
   padding-bottom: 94px;
 }
-.section.hero {
-  padding-top: 0;
-}
+
 /* ---  УБРАТЬ ПОДЧЕРКИВАНИЕ НА ПОРТФОЛИО
   a {
   text-decoration: none;
