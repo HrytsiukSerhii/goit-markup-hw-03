@@ -25,6 +25,9 @@ body {
 }
 
 /* ВЕРХНИЕ КНОПКИ САЙТА  */
+.page-header.portf {
+  border: 1px solid #ececec;
+}
 .main-nav {
   display: flex;
   align-items: center;
@@ -85,8 +88,6 @@ body {
 /*ЗАГОЛОВОК   h1  */
 .hero {
   background-color: #2f303a;
-
-  width: 1600px;
 
   padding-top: 200px;
   padding-bottom: 0;
@@ -244,6 +245,11 @@ body {
   width: 270px;
   height: 368px;
   text-align: center;
+  background: #ffffff;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-list .item + .item {
   margin-left: 30px;
@@ -257,7 +263,7 @@ body {
   letter-spacing: 0.03em;
 
   padding: 0;
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 .team-list .content {
@@ -282,6 +288,8 @@ body {
   height: 404px;
   margin-right: 30px;
   margin-bottom: 30px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 .portfolio-list .item:nth-child(3n) {
   margin-right: 0;
@@ -312,15 +320,14 @@ body {
   letter-spacing: 0.03em;
 
   padding: 0;
-  margin-top: 0;
   margin-left: 24px;
-  margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* ФУТЕР  */
 .footer {
   background: #2f303a;
-  width: 1600px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -353,11 +360,8 @@ body {
   margin-top: 0;
   margin-bottom: 9px;
 }
-.page-header {
-  width: 1600px;
-}
+
 .section {
-  width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -374,7 +378,6 @@ body {
 }
 /* СТРАНИЦА- ПОРТФОЛИО*/
 .page-filt {
-  width: 1600px;
   padding-top: 94px;
 }
 .port {
@@ -382,7 +385,7 @@ body {
   padding-bottom: 94px;
 }
 
-/* ---  УБРАТЬ ПОДЧЕРКИВАНИЕ НА ПОРТФОЛИО
-  a {
+/* ---  УБРАТЬ ПОДЧЕРКИВАНИЕ НА ПОРТФОЛИО */
+a {
   text-decoration: none;
-}  */
+}
